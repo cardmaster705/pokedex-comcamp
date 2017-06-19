@@ -1,0 +1,39 @@
+nav.nav {
+  background-color: #DC092E;
+  color: #fff;
+  padding-left: 45px;
+  padding-right: 45px;
+
+  a {
+    color: #fff;
+    transition: 0.3s all;
+
+    &:hover {
+      color: darken(#fff, 10%);
+    }
+  }
+
+  .field,
+  p.control {
+    height: 100%;
+    width: 100%;
+
+    .icon {
+      height: 100%;
+    }
+  }
+
+  input.search-bar {
+    border: none;
+    border-radius: 50px;
+    height: 80%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
